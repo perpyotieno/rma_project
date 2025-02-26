@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/perpetua/my_workspace_ros/src/smb_common/smb_gazebo/install/setup.sh

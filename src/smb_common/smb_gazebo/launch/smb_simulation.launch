@@ -1,0 +1,13 @@
+<launch>
+    <!-- Define the world argument -->
+    <arg name="world" default="planner_tutorial"/>
+    <!-- Include the orignal smb_gazebo.launch file and pass the world argument -->
+    <include file="$(find smb_gazebo)/launch/smb_gazebo.launch">
+        <!-- Name of the world. Specifies which world to load-->
+        <arg name="world" default="planner_tutorial"/> 
+        <!-- Path of the world file. Sets the path for the world file -->
+        <arg name= "world_file" default="$(find smb_gazebo)/worlds/$(arg world).world"/>
+        <!-- Enable laser sensors in the simulation-->
+        <arg name="laser_enabled" default="true"/>
+    </include>
+</launch>

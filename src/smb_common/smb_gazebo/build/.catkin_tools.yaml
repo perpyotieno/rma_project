@@ -1,0 +1,6 @@
+devel_space: /home/perpetua/my_workspace_ros/src/smb_common/smb_gazebo/devel
+install: false
+install_space: /home/perpetua/my_workspace_ros/src/smb_common/smb_gazebo/install
+profile: default
+source_space: /home/perpetua/my_workspace_ros/src/smb_common/smb_gazebo/src
+workspace: /home/perpetua/my_workspace_ros/src/smb_common/smb_gazebo

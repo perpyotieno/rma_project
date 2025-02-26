@@ -1,0 +1,1 @@
+/home/perpetua/tigris_ws/smb_common/smb_gazebo/devel/.private/catkin_tools_prebuild/local_setup.sh

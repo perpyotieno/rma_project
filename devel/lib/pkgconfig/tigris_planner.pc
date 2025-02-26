@@ -1,0 +1,8 @@
+prefix=/home/perpetua/tigris_ws/devel
+
+Name: tigris_planner
+Description: Description of tigris_planner
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
